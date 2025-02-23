@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Order-Car - Neat Any Okapi</title>
+    <meta property="og:title" content="Order-Car - Neat Any Okapi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./order-car.css" rel="stylesheet" />
+
+      <div class="order-car-container">
+        <div class="navbar4-container navbar4-root-class-name5">
+          <header data-thq="thq-navbar" class="navbar4-navbar-interactive">
+            <img
+              alt="Car Dealership"
+              src="public/logo-1500h.png"
+              class="navbar4-image1"
+            />
+            <div data-thq="thq-navbar-nav" class="navbar4-desktop-menu">
+              <nav class="navbar4-links">
+                <span class="thq-link thq-body-small">
+                    <a href="index.html">
+                    <span>RidersOfHell</span>
+                  </a>
+                </span>
+                <span class="thq-link thq-body-small">
+                      <a href="about-as.html">
+                      <span>About Us</span>
+                    </a>
+                  </span>
+                <span class="thq-link thq-body-small">
+                    <a href="watch-car-page.html">
+                    <span>Cars</span>
+                  </a>
+                </span>
+                <span class="thq-link thq-body-small">
+                    <a href="order-car.html">
+                    <span>Order Car</span>
+                  </a>
+                </span>
+                <span class="thq-link thq-body-small">
+                    <a href="service.html">
+                    <span>Service</span>
+                  </a>
+                </span>
+              </nav>
+              <div class="navbar4-buttons">
+                <span class="navbar4-text">
+                  <span>You Are Not Registred!!!</span>
+                </span>
+                <button class="navbar4-action2 thq-button-outline">
+                  <a href="registration-page.html">
+                  <span>Registration</span>
+                  </a>
+                </button>
+                <button class="navbar4-action21 thq-button-outline">
+                  <span>
+                    <a href="login-page.html">
+                    <span>Login</span>
+                    <br />
+                    </a>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div data-thq="thq-burger-menu" class="navbar4-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navbar4-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="navbar4-mobile-menu">
+              <div class="navbar4-nav">
+                <div class="navbar4-top">
+                  <img
+                    alt="Car Dealership"
+                    src="public/logo-1500h.png"
+                    class="navbar4-logo"
+                  />
+                  <div data-thq="thq-close-menu" class="navbar4-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="navbar4-icon2">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="navbar4-links1">
+                  <span class="thq-link thq-body-small">
+                    <span>Про нас</span>
+                  </span>
+                  <span class="thq-link thq-body-small">Cars</span>
+                  <span class="thq-link thq-body-small">
+                    <span>Order Car</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Service</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>RidersOfHell</span>
+                  </span>
+                </nav>
+              </div>
+              <div class="navbar4-buttons1">
+                <button class="thq-button-filled">Login</button>
+                <button class="thq-button-outline">Register</button>
+              </div>
+            </div>
+          </header>
+        </div>
+        <form class="order-car-form">
+          <form>
+          </form>
+            <form class="order-car-form1">
+              <span class="order-car-text">
+                <span>Insurance Car</span>
+                <br />
+              </span>
+              <span class="order-car-text03">
+                <span>Order Car</span>
+                <br />
+              </span>
+              <span class="order-car-text06">
+                <span>Select a type of contract:</span>
+                <br />
+              </span>
+              <span class="order-car-text09">
+                <span>Order Car</span>
+                <br />
+              </span>
+              <input type="checkbox" checked="true" class="order-car-checkbox" />
+              <input type="checkbox" checked="true" class="order-car-checkbox1" />
+              <span class="order-car-text12">
+                <span>Select Car:</span>
+                <br />
+              </span>
+              <span class="order-car-text15">
+                <span>Input your number</span>
+                <br />
+              </span>
+              <span class="order-car-text18">
+                <span>Input your IPN</span>
+                <br />
+              </span>
+              <input
+                type="text"
+                enctype="Your number"
+                placeholder="Your PIB"
+                class="order-car-textinput input"
+              />
+              <input
+                type="text"
+                enctype="Your IPN"
+                placeholder="Your PIB"
+                class="order-car-textinput1 input"
+              />
+              <span class="order-car-text21">
+                <span>Input your PIB</span>
+                <br />
+              </span>
+              <input
+                type="text"
+                placeholder="Your PIB"
+                class="order-car-textinput2 input"
+              />
+              <span class="order-car-text24">
+                <span>Cash Payment</span>
+                <br />
+              </span>
+              <span class="order-car-text27">
+                <span>Pay Cart</span>
+                <br />
+              </span>
+              <input type="checkbox" checked="true" class="order-car-checkbox2" />
+              <input type="checkbox" checked="true" class="order-car-checkbox3" />
+              <button class="order-car-action2 thq-button-outline">
+                <span>
+                  <span>Continue</span>
+                  <br />
+                </span>
+              </button>
+              <select class="order-car-select">
+                <option value="Option 1">None</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                <option value="Option 4">Option 3</option>
+                <option value="Option 5">Option 3</option>
+                <option value="Option 6">Option 3</option>
+                <option value="Option 7">Option 3</option>
+                <option value="Option 8">Option 3</option>
+                <option value="Option 9">Option 3</option>
+                <option value="Option 10">Option 3</option>
+                <option value="Option 11">Option 3</option>
+                <option value="Option 12">Option 3</option>
+                <option value="Option 13">Option 3</option>
+                <option value="Option 14">Option 3</option>
+                <option value="Option 15">Option 3</option>
+                <option value="Option 16">Option 3</option>
+              </select>
+          </form>
+        </form>
+
+        <div
+          class="contact4-contact20 thq-section-padding contact4-root-class-name3"
+        >
+          <div class="contact4-max-width thq-section-max-width">
+            <div class="contact4-section-title">
+              <span class="thq-body-small">
+                <span>
+                  Our team is here to help you find the perfect car that suits
+                  your needs.
+                </span>
+              </span>
+              <div class="contact4-content">
+                <h2 class="thq-heading-2"><span>Contact Us</span></h2>
+                <p class="contact4-text2 thq-body-large">
+                  <span>
+                    Have a question or need assistance? Feel free to reach out
+                    to us.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="contact4-row">
+              <div class="contact4-content1">
+                <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                  <path
+                    d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                  ></path>
+                </svg>
+                <div class="contact4-contact-info">
+                  <div class="contact4-content2">
+                    <h3 class="contact4-text3 thq-heading-3">Email</h3>
+                    <p class="contact4-text4 thq-body-large">
+                      <span>
+                        For any inquiries about our services or promotions,
+                        contact us via phone or email.
+                      </span>
+                    </p>
+                  </div>
+                  <span class="contact4-email thq-body-small">
+                    <span>RidersOfHell@gmail.com</span>
+                  </span>
+                </div>
+              </div>
+              <div class="contact4-content3">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  class="contact4-icon2 thq-icon-medium"
+                >
+                  <path
+                    d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
+                  ></path>
+                </svg>
+                <div class="contact4-contact-info1">
+                  <div class="contact4-content4">
+                    <h3 class="contact4-text5 thq-heading-3">Phone</h3>
+                    <p class="contact4-text6 thq-body-large">
+                      <span>
+                        Stay connected with us on social media for the latest
+                        updates and offers.
+                      </span>
+                    </p>
+                  </div>
+                  <span class="contact4-phone thq-body-small">
+                    <span>+380-888-3535</span>
+                  </span>
+                </div>
+              </div>
+              <div class="contact4-content5">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  class="contact4-icon4 thq-icon-medium"
+                >
+                  <path
+                    d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+                  ></path>
+                </svg>
+                <div class="contact4-contact-info2">
+                  <div class="contact4-content6">
+                    <h3 class="contact4-text7 thq-heading-3">Office</h3>
+                    <p class="contact4-text8 thq-body-large">
+                      <span>
+                        Visit our dealership today to explore our wide range of
+                        cars.
+                      </span>
+                    </p>
+                  </div>
+                  <span class="contact4-address thq-body-small">
+                    <span>Ukraine,Odessa,Kolotushkin 10</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
